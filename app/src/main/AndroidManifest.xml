@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="code.fortomorrow.kheloNowAdmin">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KheloNow"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activities.StatisticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SearchAddWithdrawHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Sub_admin_history_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Accept_money_history_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.User_above_activity"
+            android:exported="false" />
+        <activity
+            android:name=".KheloLudo.View.Activities.Slider_view_activity"
+            android:exported="false" />
+        <activity
+            android:name=".KheloLudo.View.Activities.Slider_activity"
+            android:exported="false" />
+        <activity
+            android:name=".KheloLudo.View.Activities.Khelo_ludo_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Balance_history_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Tournament_acitivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Play_type_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Ludo_user_statistics_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Admin_option_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ArenaValor_participant_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ArenaValor_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ArenaValor_item_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Promoter_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Promoter_add_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Sub_admin_details_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Sub_admin_information_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Buy_sell_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Ludo_view_image_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Rules_add_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Free_fire_full_map_item_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Ludo_four_player_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Ludo_quick_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Free_fire_item_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Ludo_item_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Admin_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Daily_scrims_add_rules_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Daily_scrims_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Accepted_add_money_history_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.How_to_join_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Send_image_notification_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Withdraw_money_list_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Add_money_list_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Joined_player_list_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Withdraw_history_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Notice_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Free_fire_CS_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Ludo_grand_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Free_fire_cs_main_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Free_fire_full_map_main_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Ludo_regular_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Pop_up_add_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Pop_up_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Slider_list_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Slider_add_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Create_admin_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Sub_admin_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Before_all_created_matches_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.How_to_join_ludo_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Accepted_add_money_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Search_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Ludo_participant_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Ludo_rules_add_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.EditMatchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.SupportActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.FreeFireRegularRulesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.SendNotificationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.NumberAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.ShowParticipantActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.ResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AllCreatedMatches"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.OnGoingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.FreeFireCSRulesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.WithdrawRequestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.AddMoneyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

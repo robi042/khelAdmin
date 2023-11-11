@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nagaditem"
+        android:icon="@drawable/ic_baseline_casino_24"
+        android:title="Nagad" />
+
+    <item
+        android:id="@+id/bKashitem"
+        android:icon="@drawable/ic_baseline_casino_24"
+        android:title="bKash" />
+
+
+    <item
+        android:id="@+id/rocketitem"
+        android:icon="@drawable/ic_baseline_casino_24"
+        android:title="Rocket" />
+
+
+</menu>

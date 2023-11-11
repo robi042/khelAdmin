@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Khelo Admin</string>
+    <string name="forgot" translatable="false"><u>Forgot Password?</u></string>
+    <string name="delete_string">Are you sure want to delete?</string>
+    <string name="yes_string">Yes</string>
+    <string name="no_string">No</string>
+    <string name="sure_string">Are you sure?</string>
+    <string name="set_id_password"><![CDATA[Set ID & Password]]></string>
+    <string name="password">Password</string>
+    <string name="room_id">Room Code</string>
+    <string name="set_room_code">Set Room Code</string>
+    <string name="something_wrong">Something went wrong</string>
+    <string name="edit_match">Edit Match</string>
+    <string name="title_activity_ludo_rules_add">Ludo_rules_add_act</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="player_list">Player List</string>
+    <string name="winning_money">WINNING MONEY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_accepted_add_money_history">Accepted_add_money_history_activity
+    </string>
+    <string name="title_activity_daily_scrims_add_rules">Daily_scrims_add_rules_activity</string>
+    <string name="title_activity_ludo_view_image">Ludo_view_image_activity</string>
+    <string name="number_add_note">*Put Number this way : 017*** (personal/Agent)</string>
+
+</resources>

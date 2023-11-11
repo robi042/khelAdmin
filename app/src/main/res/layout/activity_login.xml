@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Activities.LoginActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/whatsappiconInlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@android:color/white"
+        app:backgroundTint="@android:color/white"
+        app:fabCustomSize="40dp"
+        app:fabSize="auto"
+        app:maxImageSize="35dp"
+        app:srcCompat="@drawable/ic_whatsapp"
+        tools:ignore="VectorDrawableCompat,SpeakableTextPresentCheck" />
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/middle"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/marologo"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp" />
+
+
+        <View
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_3sdp"
+            android:background="#fff"/>
+
+
+        <TextView
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="A D M I N"
+            android:textColor="#fff"
+            android:textSize="@dimen/_18sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/middle"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/edittext_for_login"
+            android:hint="User Name"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColorHint="#726E6E"
+            android:textSize="@dimen/_12sdp" />
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/edittext_shape_foremail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp">
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9"
+                android:background="@drawable/edittext_for_login"
+                android:hint="Password"
+                android:maxLines="9"
+                android:paddingLeft="@dimen/_10sdp"
+                android:textColorHint="#726E6E"
+                android:textSize="@dimen/_11sdp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/forword_btn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:background="@drawable/login_button_shape"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="LOGIN"
+                android:textColor="#fff"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
